@@ -6,6 +6,6 @@ public class Main {
 		GameLogic.enterToContinue();
 		GameLogic.clearConsole();
 		int input = GameLogic.readInt("Enter 1, 2, or 3: ", 3);
-		System.out.println("You chose number: " + input);
+		System.out.println("You chose number: " + input + "!");
 	}
 }
